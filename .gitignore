@@ -1,0 +1,35 @@
+# Ignore arquivos binários e diretórios de compilação
+/bin/
+/build/
+/out/
+*.class
+
+# Configurações específicas do IntelliJ IDEA
+.idea/
+*.iml
+
+# Configurações específicas do Eclipse
+.project
+.classpath
+.settings/
+
+# Ignorar arquivos de dependências geradas
+target/
+*.jar
+*.war
+
+# Arquivos gerados pelo Maven e Gradle
+.mvn/
+.gradle/
+*.log
+*.cache
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de testes gerados
+test-output/
+
+# Logs
+*.log
